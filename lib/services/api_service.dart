@@ -4,8 +4,8 @@ import '../models/product_model.dart';
 
 class ApiService {
   // Edge Browser ke liye 127.0.0.1
-  static const String baseUrl = "http://127.0.0.1:8000/api";
-  static const String mediaBaseUrl = "http://127.0.0.1:8000";
+  static const String baseUrl = "https://pppjagdesh1234.pythonanywhere.com/api";
+  static const String mediaBaseUrl = "https://pppjagdesh1234.pythonanywhere.com";
 
   // 1. Products mangwane ke liye
   Future<List<Product>> getProducts() async {
